@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+body {
+  margin: 0;
+  font-family: Raleway, sans-serif;
+}
+
+.RoomList a.active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.ChatHeader button {
+  opacity: 0;
+}
+
+.ChatHeader:hover button {
+  opacity: 1;
+}
+
+.Select-control {
+  border: 0 !important;
+  outline: none !important;
+  font-size: 0.8rem;
+}
+
+.Select--multi .Select-value-label {
+  max-width: 8rem;
+  white-space: nowrap;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}
+
+.Select--multi .Select-arrow-zone {
+  opacity: 0;
+}
